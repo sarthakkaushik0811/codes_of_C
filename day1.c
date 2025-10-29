@@ -12,7 +12,7 @@ Output 1 :   Sum = 7        Output 2 :  sum = 19  */
 
     int sum = a+b;
 
-    printf("the sum is equals to %d",sum);
+    printf("the sum is equals to %d\n",sum);
 
 /*Q2: Write a program to input two numbers and display their sum, difference, product, and quotient.
 Sample Test Cases:
@@ -29,9 +29,10 @@ Sum=12, Diff=8, Product=20, Quotient=5                   Sum=10, Diff=4, Product
     int product = A*B;
     int quotient = A/B;
 
-    printf("the sum is equals to %d",SUM);
-    printf("the difference is equals to %d",difference);
-    printf("the product is equals to %d",product);
-    printf("the quoitent is equals to %d",quotient);
+    printf("the sum is equals to %d\n",SUM);
+    printf("the difference is equals to %d\n",difference);
+    printf("the product is equals to %d\n",product);
+    printf("the quoitent is equals to %d\n",quotient);
     return 0;
+
 }
